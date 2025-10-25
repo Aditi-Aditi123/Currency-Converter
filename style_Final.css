@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Nata+Sans:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nata+Sans:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+
+  object-fit: cover; /* Optional: makes the image fill the container */
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.75); /* black overlay */
+  background-blend-mode: darken;
+}
+.container {
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  
+  
+}
+nav {
+  font-family: "poppins", sans-sarif;
+  display: flex;
+  font-weight: 400;
+  background-color: rgb(22, 22, 22); /* Dark transparent */
+  color: white;
+  font-size: 19px;
+  backdrop-filter: blur(10px); 
+  position: sticky;
+  top: 0;
+  padding: 2px;
+  background-color: rgba(255, 255, 255, 0.15); /* very transparent white */
+justify-content: space-between;
+  backdrop-filter: blur(10px);
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+nav ul li {
+  list-style: none;
+  margin: 23px;
+  padding: 3px;
+}
+.logo {
+  align-items: center;
+  justify-content: center;
+  margin: 23px;
+  display: inline;
+}
+nav li a {
+  color: white;
+
+  text-decoration: none;
+  transition: all;
+  transition-duration: 300ms;
+}
+nav li a:hover {
+  color: blueviolet;
+}
+select {
+  background-color: rgba(6, 29, 29, 0.678);
+  font-size: 20px;
+  color: white;
+  font-family: "poppins", sans-sarif;
+  display: inline;
+  border-radius: 9px;
+}
+.text {
+  font-weight: 300;
+  font-size: 20px;
+   color: white;
+   display: inline;
+}
+.btn input {
+  cursor: pointer;
+  font-family: "poppins", sans-sarif;
+  font-size: 20px;
+  border-radius: 13px;
+  padding: 5px;
+  color:white;
+  background-color:  rgba(6, 29, 29, 0.678);
+}
+.btn input :hover{
+   transform: scale(1.05);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px 20px;
+}
+.cotext {
+  font-size: 20px;
+}
+table {
+  color: rgb(255, 255, 255);
+  border: 2px solid white;
+  width: 60%;
+}
+th,td{
+  color: rgb(255, 255, 255);
+  border: 2px solid white;
+}
+.output {
+  display: none;
+  color: rgb(255, 255, 255);
+  
+}
+.cur{
+  color: rgb(255, 255, 255);
+  background-color: rgba(6, 29, 29, 0.678);
+  border-radius: 9px;
+  padding: 2px;
+  display: inline;
+
+}
+input[name="quantity"]{
+  color: rgb(255, 255, 255);
+  background-color: rgba(6, 29, 29, 0.678);
+  border-radius: 9px;
+  padding: 2px;
+  display: inline;
+
+}
+.num input {
+  font-size: 15px;
+  display: inline;
+   display: inline-block;
+}
+input::placeholder {
+  color: rgb(255, 255, 255);
+  color: white; /* or whatever color you want */
+  opacity: 0.5; 
+}
+footer{
+  text-align: center;
+  color: white;
+}
+.res{
+  font: 500;
+  font-size: 25px;
+}
+.out{
+  font: 500;
+  font-size: 25px;
+  display: none;
+  color:white;
+}

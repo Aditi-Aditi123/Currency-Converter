@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency_Converter_LCC</title>
+    <link rel="stylesheet" href="style_Final.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">Currency Converter</div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <form method="get">
+        <div class="text">
+          <label for="from_currency"
+            >Enter the currency code you want to convert from</label>
+        </div>
+        <div class="t">
+          <input
+            class="num cur cotext"
+            placeholder="Enter the currency code"
+            type="text"
+            name="from_currency"
+          />
+        </div>
+        <div class="text">
+          <label for="to_currency"
+            >Enter the currency code you want to convert to</label
+          >
+        </div>
+
+        <div class="t">
+          <input
+            class="num cur cotext"
+            placeholder="Enter the currency code"
+            type="text"
+            name="to_currency"
+          />
+        </div>
+
+        <div class="text"><label for="currency">Enter the amount</label></div>
+
+        <div class="t">
+          <input
+            class="num cotext"
+            placeholder="Enter the amount"
+            type="number"
+            name="quantity"
+          />
+        </div>
+
+        <div class="btn cotext"><input type="submit" value="Convert " /></div>
+      </form>
+
+      <div class="out"></div>
+    </div>
+    <footer>Copyright &copy; All rights reserved</footer>
+    <script src="main_Final.js"></script>
+  </body>
+</html>
