@@ -2,7 +2,6 @@
 
 A simple and responsive **Currency Converter** built using **HTML, CSS, and JavaScript**. This project allows users to convert an amount from one currency to another using real-time exchange rates via an API.
 
----
 
 ## Features
 
@@ -12,7 +11,6 @@ A simple and responsive **Currency Converter** built using **HTML, CSS, and Java
 - Responsive and clean user interface  
 - Displays the converted amount dynamically without reloading the page  
 
----
 
 ## Usage
 
@@ -21,7 +19,6 @@ A simple and responsive **Currency Converter** built using **HTML, CSS, and Java
 3. Enter the **amount** you want to convert.  
 4. Click **Convert** to see the equivalent amount.
 
----
 
 ## Technologies Used
 
